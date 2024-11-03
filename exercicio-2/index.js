@@ -1,17 +1,17 @@
 // Carro mais veloz //
 
-// let NameOfCar1 = prompt("Olá piloto, me informe o nome do seu carro:");
-// let VelocityCar1 = prompt("Piloto do carro: " + NameOfCar1 + "\ninsira o valor máximo de velocidade do seu carro:");
-// let NameOfCar2 = prompt("Olá piloto, me informe o nome do seu carro:");
-// let VelocityCar2 = prompt("Piloto do carro: " + NameOfCar2 + "\ninsira o valor máximo de velocidade do seu carro:");
+let NameOfCar1 = prompt("Olá piloto, me informe o nome do seu carro:");
+let VelocityCar1 = prompt("Piloto do carro: " + NameOfCar1 + "\ninsira o valor máximo de velocidade do seu carro:");
+let NameOfCar2 = prompt("Olá piloto, me informe o nome do seu carro:");
+let VelocityCar2 = prompt("Piloto do carro: " + NameOfCar2 + "\ninsira o valor máximo de velocidade do seu carro:");
 
-// if (VelocityCar1 > VelocityCar2) {
-//     alert (NameOfCar1 + " é mais rápido que o carro " + NameOfCar2)
-// } else if (VelocityCar1 < VelocityCar2) {
-//     alert (NameOfCar2 + " é mais rápido que o carro " + NameOfCar1)
-// } else {
-//     alert ("Ambos os carros possuem a mesma velocidade!")
-// };
+if (VelocityCar1 > VelocityCar2) {
+    alert (NameOfCar1 + " é mais rápido que o carro " + NameOfCar2)
+} else if (VelocityCar1 < VelocityCar2) {
+    alert (NameOfCar2 + " é mais rápido que o carro " + NameOfCar1)
+} else {
+    alert ("Ambos os carros possuem a mesma velocidade!")
+};
 
 
 // Dano do personagem //
