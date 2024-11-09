@@ -68,7 +68,6 @@ do {
             break;
         default:
             alert("Você não escolheu nenhuma das opções disponíveis..")
-            InitialMoney = parseInt(prompt("Olá, por favor me informe a quantidade inicial de dinheiro:"))
     }
 
 } while (AddOrRemoveMoney > 0 && AddOrRemoveMoney < 3);
