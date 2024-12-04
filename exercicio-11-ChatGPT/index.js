@@ -14,7 +14,6 @@ do {
         ObjectStudents.notationOne = prompt("Me informe a 1º nota do aluno:" + "\n\nSe houver casa decimal, utilize pontos (Ex.: 6.7, 5.4)")
         ObjectStudents.notationSecond = prompt("Me informe a 2º nota do aluno:" + "\n\nSe houver casa decimal, utilize pontos (Ex.: 2.3, 4.1)")
         ArrayStudents.push({...ObjectStudents})
-        console.log(ArrayStudents)
         StudentsConfirmed++
         alert("Aluno cadastrado com sucesso!")
         break;

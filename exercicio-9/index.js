@@ -30,7 +30,6 @@ do {
             }
             NewProperty()
             NewPropertyArray.push(NewPropertyObject)
-            console.log(NewPropertyObject)
             QuantityProperty++
             break;
         case 2:
